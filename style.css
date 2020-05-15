@@ -47,11 +47,16 @@ a {
   text-transform: uppercase;
 }
 nav {
-  display: flex;
+  min-height: 10vh;
   width: 90%;
   margin: auto;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex;
+}
+nav ul {
+  display: flex;
+}
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
 }
